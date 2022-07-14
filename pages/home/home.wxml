@@ -1,0 +1,213 @@
+<view class="home">
+	<!-- 背景绿色图片 -->
+	<image class="bg_img" src="/img/首页/top_bg.png"></image>
+
+	<view class="search-wrap">
+		<!-- 定位图标 -->
+		<image class="icon-img" src="/img/首页/icon_dw.png"></image>
+
+		<!-- 搜索栏 -->
+		<view class="search-box">
+			<icon type="search" size="36rpx"></icon>
+			<input class="search-input" value="" placeholder="搜索商品"></input>
+		</view>
+
+		<!-- 客服图标 -->
+		<image class="icon-img" src="/img/首页/icon_kf.png"> </image>
+	</view>
+
+	<!-- 黄桃图片 -->
+	<view class="img-wrap">
+		<image class="img" src="/img/首页/banner01.png"></image>
+	</view>
+
+	<!-- 抚贫困产品一排内容 -->
+	<view class="img-wrap1">
+		<image class="img" src="/img/首页/icon01.png"></image>
+		<image class="img" src="/img/首页/icon02.png"></image>
+		<image class="img" src="/img/首页/icon03.png"></image>
+		<image class="img" src="/img/首页/icon04.png"></image>
+		<image class="img" src="/img/首页/icon05.png"></image>
+	</view>
+
+	<!-- 灰色背景模块 方法一 (有问题) -->
+	<!-- <view style="width=100%;height=20rpx;background-color:#ddd;"></view> -->
+
+	<!-- 方法二 使用border-top 在.timeline-wrap{}里 -->
+
+	<!-- 限时抢购模块 -->
+	<view class="timeline-wrap">
+		<view class="timeline-header">
+			<view class="timeline-title-wrap">
+				<view class="title-tag-wrap">
+					<image class="time-img" src="/img/首页/ms.png"></image>
+					<text class="text">限时秒杀</text>
+				</view>
+				<view class="time-wrap">
+					<view>正在疯抢</view>
+					<view class="time">
+						<text class="num">00</text>
+						<text>:</text>
+						<text class="num">00</text>
+						<text>:</text>
+						<text class="num">00</text>
+					</view>
+
+				</view>
+			</view>
+
+			<view class="more">查看更多></view>
+		</view>
+	</view>
+</view>
+
+<!--橙子 蓝莓 火龙果  -->
+<view class="img-wrap2">
+	<view class="img-text">
+		<image class="img" src="/img/首页/img01.png"></image>
+		<view class="text1">湖北秭归伦晚脐橙 湖北秭归伦晚脐橙</view>
+		<view class="text4">
+			<view class="text2">¥29.9</view>
+			<view class="text3">¥39</view>
+		</view>
+	</view>
+
+	<view class="img-text">
+		<image class="img" src="/img/首页/img02.png"></image>
+		<view class="text1">蓝莓新鲜大果500g 蓝莓新鲜大果500g</view>
+		<view class="text4">
+			<view class="text2">¥29.9</view>
+			<view class="text3">¥39</view>
+		</view>
+	</view>
+
+	<view class="img-text">
+		<image class="img" src="/img/首页/img03.png">
+		</image>
+		<view class="text1">越南红心火龙果5斤 越南红心火龙果5斤</view>
+		<view class="text4">
+			<view class="text2">¥29.9</view>
+			<view class="text3">¥39</view>
+		</view>
+	</view>
+</view>
+
+<!-- 每日好货更新 -->
+<view class="daily-wrap">
+	<view class="img-wrap3">
+		<image class="img" src="/img/首页/title_left.jpg"></image>
+		<view class="text">每日好货更新</view>
+		<image class="img" src="/img/首页/title_right.jpg"></image>
+	</view>
+	<!-- 每日好货的列表 -->
+	<view class="good-list">
+		<image class="good-list-img" src="/img/首页/img04.png"></image>
+		<!-- 右边盒子 -->
+		<view class="good-list-content">
+			<view class="name">贝贝南瓜 板栗味迷你小南瓜5斤装</view>
+			<view class="tag">
+				<text>甜糯可口 香如板栗</text>
+				<!-- <text>香如板栗</text> -->
+			</view>
+			<!-- 内容底部大盒子 -->
+			<view class="content-footer">
+				<!-- 左侧拼团 价格 -->
+				<view class="content-footer-left">
+					<!-- 拼团的盒子 -->
+					<view class="group-wrap">
+						<image class="group-img" src="/img/首页/user.png"></image>
+						<text class="all-num">3人团</text>
+						<text class="num">已有2人拼团</text>
+					</view>
+					<!--  -->
+					<view class="price-wrap">
+						<text class="price"> ¥29.9</text>
+						<text class="old-price">¥45.9</text>
+					</view>
+				</view>
+				<!-- 右侧的按钮 -->
+				<view class="btn">去拼团</view>
+			</view>
+		</view>
+	</view>
+
+	<view class="good-list">
+		<image class="good-list-img" src="/img/首页/img05.png"></image>
+		<!-- 右边盒子 -->
+		<view class="good-list-content">
+			<view class="name">越南大青芒新鲜水果现摘当季净重9斤装</view>
+			<view class="tag">
+				<text>甜糯可口 香如板栗</text>
+				<!-- <text>香如板栗</text> -->
+			</view>
+			<!-- 内容底部大盒子 -->
+			<view class="content-footer">
+				<!-- 左侧拼团 价格 -->
+				<view class="content-footer-left">
+					<!-- 拼团的盒子 -->
+					<view class="group-wrap">
+						<image class="group-img" src="/img/首页/user.png"></image>
+						<text class="all-num">3人团</text>
+						<text class="num">已有2人拼团</text>
+					</view>
+					<!--  -->
+					<view class="price-wrap">
+						<text class="price"> ¥53.8</text>
+						<text class="old-price">¥89.9</text>
+					</view>
+				</view>
+				<!-- 右侧的按钮 -->
+				<view class="btn">去拼团</view>
+			</view>
+		</view>
+	</view>
+</view>
+
+<!-- 智能推荐横栏  -->
+<view class="daily-wrap">
+	<view class="img-wrap3">
+		<image class="img" src="/img/首页/title_left.jpg"></image>
+		<view class="text">智能推荐</view>
+		<image class="img" src="/img/首页/title_right.jpg"></image>
+	</view>
+</view>
+
+<!-- 四个图片 -->
+<view class="img-wrap4">
+	<view class="img-block">
+		<image class="img" src="/img/首页/img06.png"></image>
+	 <view class="text1">新鲜荔枝现摘现发5斤</view>
+		<view class="text2">
+			<view class="text3"> ¥59</view>
+			<view class="text4"> ¥98</view>
+		</view>
+	</view>
+
+	<view class="img-block">
+		<image class="img" src="/img/首页/img07.png"></image>
+		<view class="text1">山东烟台大樱桃新鲜5斤</view>
+		<view class="text2">
+			<view class="text3">¥69</view>
+			<view class="text4">¥118</view>
+		</view>
+	</view>
+
+	<view class="img-block">
+		<image class="img" src="/img/首页/img08.png"></image>
+			<view class="text1">麻辣小龙虾熟食真空即食盒装</view>
+		<view class="text2">
+			<view class="text3">¥69.8</view>
+			<view class="text4">¥54.8</view>
+		</view>
+	</view>
+
+	<view class="img-block">
+		<image class="img" src="/img/首页/img09.png"></image>
+			<view class="text1">澳洲原切板腱雪花牡蛎牛排</view>
+		<view class="text2">
+			<view class="text3">¥238</view>
+			<view class="text4">¥320</view>
+		</view>
+	</view>
+
+</view>

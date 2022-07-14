@@ -1,0 +1,53 @@
+{
+  "pages":[ 
+    // "pages/swiper/swiper",
+    "pages/home/home",
+    "pages/classify/classify",
+    "pages/mine/mine",
+    "pages/index/index",
+    "pages/cart/cart",
+    
+    
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#46A87A", 
+    "navigationBarTitleText": "泡芙生鲜",
+    "navigationBarTextStyle": "white"
+  }, 
+
+  "tabBar":{
+     "color":"#cccccc",
+     "selectedColor":"#46A87A",
+     "backgroundColor":"#ffffff",
+     "list":[
+       {
+         "pagePath":"pages/home/home",
+         "text":"首页",
+         "iconPath":"/img/icon_home.png",
+         "selectedIconPath":"/img/icon_home_xz.png"
+       },
+       {
+        "pagePath":"pages/classify/classify",
+        "text":"分类",
+        "iconPath":"/img/icon_fl.png",
+        "selectedIconPath":"/img/icon_fl_xz.png"
+      },
+      {
+        "pagePath":"pages/cart/cart",
+        "text":"购物车",
+        "iconPath":"/img/icon_gwc.png",
+        "selectedIconPath":"/img/icon_gwc_xz.png"
+      },
+      {
+        "pagePath":"pages/mine/mine",
+        "text":"我的",
+        "iconPath":"/img/icon_mine.png",
+        "selectedIconPath":"/img/icon_mine_xz.png"
+      }
+     ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

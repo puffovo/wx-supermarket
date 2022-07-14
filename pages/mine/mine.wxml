@@ -1,0 +1,93 @@
+<!-- 我的 -->
+<view class="mine">
+	<view class="log">
+		<image class="bg_img" src="/img/首页/top_bg.png"></image>
+		<image class="head" src="/img/mine/01.png"></image>
+		<view class="text1">登录/注册</view>
+	</view>
+	<view class="content">
+		<view class="text2">
+			<view>--</view>
+			<view>余额</view>
+		</view>
+		<view class="text2">
+			<view>--</view>
+			<view>积分</view>
+		</view>
+		<view class="text2">
+			<view>--</view>
+			<view>优惠券(0)</view>
+		</view>
+	</view>
+	<!--  -->
+	<view class="order">
+		<view class="box1">
+			<view class="text3">我的订单</view>
+			<view class="more">查看全部订单></view>
+		</view>
+
+		<view class="line"></view>
+
+		<view class="box2">
+			<view class="text4">
+				<image class="img" src="/img/mine/02.png"></image>
+				<view>待付款</view>
+			</view>
+
+			<view class="text4">
+				<image class="img" src="/img/mine/02.png"></image>
+				<view>待发货</view>
+			</view>
+
+			<view class="text4">
+				<image class="img" src="/img/mine/03.png"></image>
+				<view>待收货</view>
+			</view>
+			<view class="text4">
+				<image class="img" src="/img/mine/04.png"></image>
+				<view>待评价</view>
+			</view>
+
+			<view class="text4">
+				<image class="img" src="/img/mine/05.png"></image>
+				<view>退款/售后</view>
+			</view>
+		</view>
+	</view>
+	<!--  -->
+	<view class="box3">
+		<view class="box4">
+			<image class="img2" src="/img/mine/07.png"></image>
+			<view class="text5">任务中心</view>
+		</view>
+		<view class="line2"></view>
+		<view class="box4">
+			<image class="img2" src="/img/mine/08.png"></image>
+			<view class="text5">返现</view>
+		</view>
+		<view class="line2"></view>
+		<view class="box4">
+			<image class="img2" src="/img/mine/09.png"></image>
+			<view class="text5">赠品</view>
+		</view>
+	</view>
+
+	<view class="box5">
+		<image class="img2" src="/img/mine/10.png"></image>
+		<view class="text5">收货地址</view>
+	</view>
+
+	<view class="box6">
+		<view class="box7">
+			<image class="img2" src="/img/mine/11.png"></image>
+			<view class="text5">账号设置</view>
+		</view>
+		<view class="line2"></view>
+		<view class="box4">
+			<image class="img2" src="/img/mine/12.png"></image>
+			<view class="text5">常见问题</view>
+		</view>
+	</view>
+
+
+</view>

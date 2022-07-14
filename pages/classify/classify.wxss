@@ -1,0 +1,103 @@
+/* pages/classify/classify.wxss */
+page{
+  height: 100%;
+}
+
+.classify{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+/* 搜索栏 高度设置 */
+.search-wrap{
+  background-color: #f5f5f5;
+  padding: 24rpx 5rpx 0 5rpx;
+  height: 100%;
+} 
+.search-wrap .search-box{
+  height: 70rpx;
+  /* width: 200rpx; */
+  flex:1;
+  background-color: white;
+  /* 外边距 提供两个数：上下 左右 */
+  margin: 0 24rpx;
+  /* 内边距 */
+  padding: 0 20rpx;
+  /* 边框圆滑 */
+  border-radius: 30rpx;
+  display: flex;
+  align-items: center;
+}
+
+.search-wrap .search-box .search-input{
+  margin-left: 10rpx;
+  flex: 1;
+}
+
+/* 左右两栏的大盒子 */
+.content{
+  display: flex;
+  height: 100%;
+  flex: 1;
+  padding-top: 20rpx;
+}
+/* 左边的菜单 */
+.menu{
+  width: 240rpx;
+  background-color: #f5f5f5;
+  box-sizing: border-box;
+  line-height: 100rpx;
+  text-align: center;
+  /* 滚动条 */
+  overflow-y: scroll;
+
+}
+.menu .box{
+  height: 100rpx;
+  font-size: 30rpx;
+  letter-spacing: 2rpx;
+}
+.menu .box1{
+  height: 100rpx;
+  font-size: 30rpx;
+  letter-spacing: 2rpx;
+  background-color: white;
+  
+}
+
+/* 右边的列表 */
+.list-wrap{
+ flex: 1;
+ height: 100%;
+ box-sizing: border-box;
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ align-content: flex-start; background-color: white;
+ line-height: 50rpx;
+ /* 滚动条 */
+ overflow-y: scroll;
+ white-space: nowrap;
+}
+
+/* 右边列表每个食物 */
+.list-wrap .list-item{
+  width: 33%;
+  justify-content: center;
+}
+
+.list-wrap .list-item .list-img{
+  width: 120rpx;
+  height: 120rpx;
+  padding: 20rpx 10rpx 0 10rpx;
+  margin: 10rpx 10rpx 0 10rpx;
+}
+.list-wrap .list-item .text{
+  /* margin: 0 30rpx;
+  padding: 0 10rpx; */
+  text-align: center;
+  font-family: '微软雅黑';
+  font-size: 28rpx;
+  letter-spacing: 2rpx;
+  
+}

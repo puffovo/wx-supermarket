@@ -1,0 +1,35 @@
+<swiper 
+	class="swiper" 
+	indicator-dots="true" 
+	indicator-color="rgba(0,0,0,.3)" 
+	autoplay="true" 
+	interval="2000" 
+	circular="{{true}}" 
+	bindchange="">
+	<!-- indicator-dots是否显示面板指示点 -->
+	<!-- indicator-color指示点颜色 -->
+	<!-- autoplay是否自动切换 -->
+	<!-- interval自动切换时间间隔 -->
+	<!-- circular是否采用衔接滑动 -->
+	<!-- bindchange current 改变时会触发 change 事件，event.detail = {current, source} -->
+
+
+
+	<swiper-item wx:for="{{swiperList}}" wx:key="index">
+
+		<!-- aspectFill 缩放模式，保持纵横比缩放图片，只保证图片的短边能完全显示出来。也就是说，图片通常只在水平或垂直方向是完整的，另一个方向将会发生截取。 -->
+		<image class="img" src="{{item.img}}" mode="aspectFill"></image>
+
+		<navigator 
+		wx:if="{{index===swiperList.length-1}}" 
+		class="nav-btn" url="/pages/home/home" 
+		open-type="switchTab" 
+		hover-class="other-navigator-hover">
+		welcome to my shop
+		</navigator>
+		<!-- open-type 跳转方式 -->
+		<!-- hover-class 指定点击时的样式类，当hover-class="none"时，没有点击态效果 -->
+
+	</swiper-item>
+
+</swiper>

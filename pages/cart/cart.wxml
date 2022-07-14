@@ -1,0 +1,95 @@
+<!-- 购物车 -->
+
+
+<!-- <view class=""> -->
+<!-- 当前是否选中，可用来设置默认选中 -->
+<!--  <checkbox value="" checked="{{false}}"></checkbox>未选中
+<checkbox value="" checked="false"></checkbox>未选中
+</view>  -->
+
+<view class="cart">
+	<view class="list-wrap">
+		<checkbox class="list-wrap-check">
+			<view class="shop"> 源码生鲜</view>
+		</checkbox>
+		<view class="box">
+			<checkbox class="check" value=""></checkbox>
+			<image class="box-img" src="/img/购物车/pic01.png"></image>
+			<view class="box-content">
+				<view class="name">贝贝南瓜 板栗味迷你小南瓜5斤装</view>
+				<view class="all">
+					<view class="price">¥29.9</view>
+					<view class="num">- 1 +</view>
+				</view>
+			</view>
+		</view>
+
+		<view class="box">
+			<checkbox class="check" value=""></checkbox>
+			<image class="box-img" src="/img/购物车/pic02.png"></image>
+			<view class="box-content">
+				<view class="name">蓝莓新鲜大果果园现摘先发 500g</view>
+				<view class="all">
+					<view class="price">¥38.8</view>
+					<view class="num">- 1 +</view>
+				</view>
+			</view>
+		</view>
+
+		<view class="box">
+			<checkbox class="check" value=""></checkbox>
+			<image class="box-img" src="/img/购物车/pic03.png"></image>
+			<view class="box-content">
+				<view class="name">麻辣小龙虾熟食真空即食盒装</view>
+				<view class="all">
+					<view class="price">¥69.8</view>
+					<view class="num">- 1 +</view>
+				</view>
+			</view>
+		</view>
+
+		<view class="box">
+			<checkbox class="check" value=""></checkbox>
+			<image class="box-img" src="/img/购物车/pic04.png"></image>
+			<view class="box-content">
+				<view class="name">新鲜荔枝现摘现发孕妇可食用 5斤</view>
+				<view class="all">
+					<view class="price">¥59</view>
+					<view class="num">- 1 +</view>
+				</view>
+			</view>
+		</view>
+
+		<view class="box">
+			<checkbox class="check" value=""></checkbox>
+			<image class="box-img" src="/img/购物车/pic05.png"></image>
+			<view class="box-content">
+				<view class="name">山东烟台大樱桃新鲜车厘子 5斤</view>
+				<view class="all">
+					<view class="price">¥69</view>
+					<view class="num">- 1 +</view>
+				</view>
+			</view>
+		</view>
+
+	</view>
+
+	<view class="select-wrap">
+		<checkbox class="check" value="">
+			<view class="text">
+				<view class="text1">全选</view>
+				<view class="text2">(共0件商品)</view>
+			</view>
+		</checkbox>
+
+		<view class="total">
+			<view class="total-text">
+				<view class="heji">合计:</view>
+				<view class="price">¥0</view>
+			</view>
+			<view class="btn">结算(0)</view>
+
+		</view>
+	</view>
+
+</view>

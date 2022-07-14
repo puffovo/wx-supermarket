@@ -1,0 +1,121 @@
+/* 购物车 */
+page{
+  height: 100%;
+}
+
+.cart{
+  /* border: 5rpx solid black; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  
+}
+.list-wrap{
+  height: 90%;
+  /* border: 3rpx solid green; */
+  margin: 30rpx 20rpx;
+  background-color: white;
+  border-radius: 20rpx;
+  /* 怪异盒子 */
+  box-sizing: border-box;
+  /* 滑动条 */
+  overflow-y: scroll;
+  white-space: nowrap;
+}
+.list-wrap-check{
+  margin: 20rpx 10rpx;
+}
+.cart .list-wrap .check{
+ margin-top: 50rpx;
+}
+.cart .list-wrap .shop{
+  font-weight: 700;
+  font-size: 35rpx;
+}
+
+.box{
+  display: flex;
+  padding: 10rpx;
+  align-items: center;
+}
+
+.box-content{
+  align-content: space-between;
+  margin-left: 5px;
+}
+
+/* 商品图片 */
+.box-img{
+  width: 150rpx;
+  height: 150rpx;
+  /* border-radius: 20rpx; */
+}
+
+/* 商品名称 */
+.name{
+  font-size: 28rpx;
+}
+
+/* 每个商品数量和价钱 */
+.all{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60rpx;
+  width: 450rpx;
+}
+
+/* 价钱颜色 */
+.all .price{
+  color: red;
+}
+
+/* 数量 */
+.all .num{
+  border: 1rpx solid #f5f5f5;
+}
+/* 结算 */
+.select-wrap{
+  height: 10%;
+  /* border: 3rpx solid red; */
+  background-color: white;
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20rpx;
+  background-color: #FAFAFA;
+  /* 怪异盒子 */
+  box-sizing: border-box;
+}
+.select-wrap .total{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.total-text{
+  display: flex;
+}
+.select-wrap .text1{
+  font-size: 30rpx;
+}
+.select-wrap .text2{
+  font-size: 25rpx;
+}
+
+.total .price{
+  color: red;
+  margin-left: 10rpx;
+}
+.btn{
+  font-family: '微软雅黑';
+  font-size: 28rpx;
+  width: 140rpx;
+  height: 60rpx;
+  border-radius: 24rpx;
+  background-color: #F75E41;
+  text-align: center;
+  line-height: 55rpx;
+  margin-left: 20rpx;
+  color: white;
+}

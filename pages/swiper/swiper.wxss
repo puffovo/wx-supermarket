@@ -1,0 +1,23 @@
+/**swiper.wxss**/
+
+.swiper {
+  height: 100%;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+.nav-btn {
+  margin-left: -188rpx;
+  padding: 20rpx;
+  border-radius: 10rpx;
+  position: absolute;
+  bottom: 80rpx;
+  /* left: 187rpx; */
+  left: 50%;
+  background: #fff;
+  text-align: center;
+  color: #51c890;
+}

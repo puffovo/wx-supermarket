@@ -1,0 +1,30 @@
+<!--pages/classify/classify.wxml-->
+<view class="classify">
+	<view class="search-wrap">
+		<!-- 搜索栏 -->
+		<view class="search-box">
+			<icon type="search" size="36rpx"></icon>
+			<input class="search-input" value="" placeholder="搜索商品"></input>
+		</view>
+
+		<!-- 选择区域 -->
+		<view class="content">
+			<!-- 左边 -->
+			<view class="menu">
+				<!-- 微信for循环 -->
+				<!-- classifyList 在.js文件里定义for循环 -->
+				<view class="{{currMenuIndex===index?'box1':''}}" wx:for="{{classifyList}}" wx:key="index" data-index="{{index}}" bindtap="menuChange">{{item.title}}</view>
+			</view>
+
+			<!-- 右边 -->
+			<view class="list-wrap">
+				<view class="list-item" wx:for="{{classifyList[currMenuIndex].list}}" wx:key="*this">
+
+					<image class="list-img" src="{{item.img}}"></image>
+					<view class="text">{{item.name}}</view>
+				</view>
+
+			</view>
+		</view>
+	</view>
+</view>
